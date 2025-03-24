@@ -64,6 +64,8 @@ const CGFloat MaxPopoverHeight = 300;
 
 const CGFloat PluginListWidth = 280;
 
+NSString * const HYPSnapshotViewControllerDrawerStateChangedNotification = @"HYPSnapshotViewControllerDrawerStateChangedNotification";
+
 -(instancetype)initWithDebuggingWindow:(HYPSnapshotDebuggingWindow *)snapshotDebuggingWindow attachedWindow:(UIWindow *)attachedWindow
 {
     self = [super init];
