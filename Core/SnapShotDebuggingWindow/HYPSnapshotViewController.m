@@ -234,6 +234,10 @@ const CGFloat PluginListWidth = 280;
     {
         [self activate];
     }
+    NSDictionary *userInfo = @{@"drawerActive": @(self.drawerActive)};
+    [[NSNotificationCenter defaultCenter] postNotificationName:HYPSnapshotViewControllerDrawerStateChangedNotification
+                                                        object:self
+                                                      userInfo:userInfo];
 }
 
 -(void)activate

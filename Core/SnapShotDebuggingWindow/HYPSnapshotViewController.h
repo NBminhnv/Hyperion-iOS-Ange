@@ -25,6 +25,8 @@
 
 @class HYPSnapshotDebuggingWindow;
 
+extern NSString * const HYPSnapshotViewControllerDrawerStateChangedNotification;
+
 @interface HYPSnapshotViewController : UIViewController
 
 -(instancetype)initWithDebuggingWindow:(HYPSnapshotDebuggingWindow *)snapshotDebuggingWindow attachedWindow:(UIWindow *)attachedWindow;
