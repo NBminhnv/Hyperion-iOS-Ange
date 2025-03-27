@@ -22,6 +22,8 @@
 #import <HyperionCore/HYPPluginModule.h>
 #import <HyperionCore/HYPOverlayViewProvider.h>
 
+extern NSString * _Nonnull const HYPPluginActiveNotification;
+
 /**
  *  HYPSnapshotPluginModule is a base implementation of a Snapshot Plugin.
  */

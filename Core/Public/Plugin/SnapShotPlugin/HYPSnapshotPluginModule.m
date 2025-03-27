@@ -29,6 +29,8 @@
 
 @implementation HYPSnapshotPluginModule
 
+NSString * const HYPPluginActiveNotification = @"HYPPluginActiveNotification";
+
 @synthesize snapshotPluginView = _snapshotPluginView;
 
 -(void)pluginMenuItemSelected:(UIView *)pluginView
@@ -48,6 +50,11 @@
     {
         [[HyperionManager sharedInstance] togglePluginDrawer];
     }
+
+    NSDictionary *userInfo = @{@"pluginActive": @(shouldActivate)};
+    [[NSNotificationCenter defaultCenter] postNotificationName:HYPPluginActiveNotification
+                                                        object:self
+                                                      userInfo:userInfo];
 }
 
 -(BOOL)active

@@ -64,8 +64,6 @@ const CGFloat MaxPopoverHeight = 300;
 
 const CGFloat PluginListWidth = 280;
 
-NSString * const HYPSnapshotViewControllerDrawerStateChangedNotification = @"HYPSnapshotViewControllerDrawerStateChangedNotification";
-
 -(instancetype)initWithDebuggingWindow:(HYPSnapshotDebuggingWindow *)snapshotDebuggingWindow attachedWindow:(UIWindow *)attachedWindow
 {
     self = [super init];
@@ -236,10 +234,6 @@ NSString * const HYPSnapshotViewControllerDrawerStateChangedNotification = @"HYP
     {
         [self activate];
     }
-    NSDictionary *userInfo = @{@"drawerActive": @(self.drawerActive)};
-    [[NSNotificationCenter defaultCenter] postNotificationName:HYPSnapshotViewControllerDrawerStateChangedNotification
-                                                        object:self
-                                                      userInfo:userInfo];
 }
 
 -(void)activate
