@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012B12F5A8A8E108EF50F7C7 /* Pods_SlowAnimations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320EF74BE8F1488A87A98A7 /* Pods_SlowAnimations.framework */; };
 		1C11F7BD20506ABB005A7081 /* HYPOverlayPluginModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C11F7BB20506ABB005A7081 /* HYPOverlayPluginModule.m */; };
 		1C11F7BE20506ABB005A7081 /* HYPOverlayPluginModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C11F7BC20506ABB005A7081 /* HYPOverlayPluginModule.h */; };
 		32EA53471F27DA300012DFB6 /* HyperionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498E34741EFA0C8000A0BC4E /* HyperionCore.framework */; };
@@ -27,6 +28,7 @@
 		32EA537E1F27E3570012DFB6 /* HYPActivationGestureOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 32EA537B1F27E3570012DFB6 /* HYPActivationGestureOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32EA537F1F27E3570012DFB6 /* HyperionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 32EA537C1F27E3570012DFB6 /* HyperionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32EA53801F27E3570012DFB6 /* HyperionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EA537D1F27E3570012DFB6 /* HyperionManager.m */; };
+		342B8AFD9370D79E397AD926 /* Pods_AttributesInspector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3448E4A6C0D55884AD7663 /* Pods_AttributesInspector.framework */; };
 		490698F81FC64ED8004ABA02 /* ruler.png in Resources */ = {isa = PBXBuildFile; fileRef = 490698F71FC64ED7004ABA02 /* ruler.png */; };
 		490698FB1FC64EE0004ABA02 /* ruler@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 490698F91FC64EDF004ABA02 /* ruler@3x.png */; };
 		490698FC1FC64EE0004ABA02 /* ruler@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 490698FA1FC64EDF004ABA02 /* ruler@2x.png */; };
@@ -148,14 +150,21 @@
 		49D23C951FCDC3840052336F /* 75x-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 49D23C921FCDC3840052336F /* 75x-Selected.png */; };
 		49D23C961FCDC3840052336F /* 75x-Selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49D23C931FCDC3840052336F /* 75x-Selected@3x.png */; };
 		49D23C971FCDC3840052336F /* 75x-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49D23C941FCDC3840052336F /* 75x-Selected@2x.png */; };
+		73034C7A0A8E3F552BBCF040 /* Pods_Measurements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D178F9461957F923DAD6E45 /* Pods_Measurements.framework */; };
+		8676D4B32E8107D200ADEA39 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8676D4B22E8107D200ADEA39 /* Podfile */; };
 		9D967BDF1FD0F8510035EB8C /* AttributesInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 320E5D801F27991400C42FC0 /* AttributesInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D967BE01FD0F8660035EB8C /* Measurements.h in Headers */ = {isa = PBXBuildFile; fileRef = 320E5D6C1F27988500C42FC0 /* Measurements.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D967BE11FD0F9390035EB8C /* SlowAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 494A74DA1F278EB9003F89F7 /* SlowAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A86CFBD066477D38A1DEFDAD /* Pods_HyperionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5375C67CA323259E084F039D /* Pods_HyperionCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0320EF74BE8F1488A87A98A7 /* Pods_SlowAnimations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlowAnimations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C52BC83A35B3F2954C6981 /* Pods-SlowAnimations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlowAnimations.release.xcconfig"; path = "Target Support Files/Pods-SlowAnimations/Pods-SlowAnimations.release.xcconfig"; sourceTree = "<group>"; };
 		1C11F7BB20506ABB005A7081 /* HYPOverlayPluginModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPOverlayPluginModule.m; sourceTree = "<group>"; };
 		1C11F7BC20506ABB005A7081 /* HYPOverlayPluginModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPOverlayPluginModule.h; sourceTree = "<group>"; };
+		206F33DD2C4F153549D25041 /* Pods-AttributesInspector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttributesInspector.debug.xcconfig"; path = "Target Support Files/Pods-AttributesInspector/Pods-AttributesInspector.debug.xcconfig"; sourceTree = "<group>"; };
+		2A666696C24EE6FB8C3309F4 /* Pods-Measurements.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Measurements.debug.xcconfig"; path = "Target Support Files/Pods-Measurements/Pods-Measurements.debug.xcconfig"; sourceTree = "<group>"; };
 		320E5D6A1F27988500C42FC0 /* Measurements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Measurements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		320E5D6C1F27988500C42FC0 /* Measurements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Measurements.h; sourceTree = "<group>"; };
 		320E5D6D1F27988500C42FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -165,6 +174,7 @@
 		32EA537B1F27E3570012DFB6 /* HYPActivationGestureOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPActivationGestureOptions.h; sourceTree = "<group>"; };
 		32EA537C1F27E3570012DFB6 /* HyperionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyperionManager.h; sourceTree = "<group>"; };
 		32EA537D1F27E3570012DFB6 /* HyperionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyperionManager.m; sourceTree = "<group>"; };
+		3D9A3FFF5644ACDEFE6DEA82 /* Pods-HyperionCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperionCore.debug.xcconfig"; path = "Target Support Files/Pods-HyperionCore/Pods-HyperionCore.debug.xcconfig"; sourceTree = "<group>"; };
 		490698F71FC64ED7004ABA02 /* ruler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruler.png; sourceTree = "<group>"; };
 		490698F91FC64EDF004ABA02 /* ruler@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ruler@3x.png"; sourceTree = "<group>"; };
 		490698FA1FC64EDF004ABA02 /* ruler@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ruler@2x.png"; sourceTree = "<group>"; };
@@ -306,6 +316,11 @@
 		49D23C921FCDC3840052336F /* 75x-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "75x-Selected.png"; sourceTree = "<group>"; };
 		49D23C931FCDC3840052336F /* 75x-Selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "75x-Selected@3x.png"; sourceTree = "<group>"; };
 		49D23C941FCDC3840052336F /* 75x-Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "75x-Selected@2x.png"; sourceTree = "<group>"; };
+		5375C67CA323259E084F039D /* Pods_HyperionCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperionCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D178F9461957F923DAD6E45 /* Pods_Measurements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Measurements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D3448E4A6C0D55884AD7663 /* Pods_AttributesInspector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AttributesInspector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A5E13D2B4E66EFB961331D /* Pods-AttributesInspector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttributesInspector.release.xcconfig"; path = "Target Support Files/Pods-AttributesInspector/Pods-AttributesInspector.release.xcconfig"; sourceTree = "<group>"; };
+		8676D4B22E8107D200ADEA39 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		9D2744B0263CA50100704ADA /* HyperioniOS.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = HyperioniOS.podspec; path = ../HyperioniOS.podspec; sourceTree = "<group>"; };
 		9D2744B1263CA53F00704ADA /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 		9D2744B2263CA53F00704ADA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -313,7 +328,18 @@
 		9D2744B4263CAC2A00704ADA /* config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = config.yml; path = ../.circleci/config.yml; sourceTree = "<group>"; };
 		9DDEB7D61FD78CF8002FC061 /* linkButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkButton.png; sourceTree = "<group>"; };
 		9DDEB7D71FD78CF8002FC061 /* linkButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linkButton@2x.png"; sourceTree = "<group>"; };
+		A5B9E763B40087316D420D4C /* Pods-HyperionCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperionCore.release.xcconfig"; path = "Target Support Files/Pods-HyperionCore/Pods-HyperionCore.release.xcconfig"; sourceTree = "<group>"; };
+		AC31A49F1A6D17AEAC652F0A /* Pods-Measurements.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Measurements.release.xcconfig"; path = "Target Support Files/Pods-Measurements/Pods-Measurements.release.xcconfig"; sourceTree = "<group>"; };
+		B77CDFADD8C129F4C0B87922 /* Pods-SlowAnimations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlowAnimations.debug.xcconfig"; path = "Target Support Files/Pods-SlowAnimations/Pods-SlowAnimations.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8676CF372E80FC0300ADEA39 /* FlexPlugin */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FlexPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		320E5D661F27988500C42FC0 /* Frameworks */ = {
@@ -321,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32EA53481F27DA340012DFB6 /* HyperionCore.framework in Frameworks */,
+				73034C7A0A8E3F552BBCF040 /* Pods_Measurements.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32EA53471F27DA300012DFB6 /* HyperionCore.framework in Frameworks */,
+				342B8AFD9370D79E397AD926 /* Pods_AttributesInspector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				494A74E01F278ED0003F89F7 /* HyperionCore.framework in Frameworks */,
+				012B12F5A8A8E108EF50F7C7 /* Pods_SlowAnimations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +373,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A86CFBD066477D38A1DEFDAD /* Pods_HyperionCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +398,17 @@
 				320E5D811F27991400C42FC0 /* Info.plist */,
 			);
 			path = AttributesInspector;
+			sourceTree = "<group>";
+		};
+		4535075403D0E93CB0EF9A35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D3448E4A6C0D55884AD7663 /* Pods_AttributesInspector.framework */,
+				5375C67CA323259E084F039D /* Pods_HyperionCore.framework */,
+				5D178F9461957F923DAD6E45 /* Pods_Measurements.framework */,
+				0320EF74BE8F1488A87A98A7 /* Pods_SlowAnimations.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		493044CD1FD0B80800731401 /* AttributeProviders */ = {
@@ -520,6 +561,8 @@
 				320E5D6B1F27988500C42FC0 /* Measurements */,
 				320E5D7F1F27991400C42FC0 /* AttributesInspector */,
 				498E34751EFA0C8000A0BC4E /* Products */,
+				B4DCD3A89FE2D2C0793E729B /* Pods */,
+				4535075403D0E93CB0EF9A35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -537,8 +580,10 @@
 		498E34761EFA0C8000A0BC4E /* HyperionCore */ = {
 			isa = PBXGroup;
 			children = (
+				8676D4B22E8107D200ADEA39 /* Podfile */,
 				498E34B81EFA0D5700A0BC4E /* Core */,
 				498E34B61EFA0D4800A0BC4E /* Info.plist */,
+				8676CF372E80FC0300ADEA39 /* FlexPlugin */,
 			);
 			path = HyperionCore;
 			sourceTree = "<group>";
@@ -727,6 +772,21 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		B4DCD3A89FE2D2C0793E729B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				206F33DD2C4F153549D25041 /* Pods-AttributesInspector.debug.xcconfig */,
+				80A5E13D2B4E66EFB961331D /* Pods-AttributesInspector.release.xcconfig */,
+				3D9A3FFF5644ACDEFE6DEA82 /* Pods-HyperionCore.debug.xcconfig */,
+				A5B9E763B40087316D420D4C /* Pods-HyperionCore.release.xcconfig */,
+				2A666696C24EE6FB8C3309F4 /* Pods-Measurements.debug.xcconfig */,
+				AC31A49F1A6D17AEAC652F0A /* Pods-Measurements.release.xcconfig */,
+				B77CDFADD8C129F4C0B87922 /* Pods-SlowAnimations.debug.xcconfig */,
+				12C52BC83A35B3F2954C6981 /* Pods-SlowAnimations.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -819,6 +879,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 320E5D6F1F27988500C42FC0 /* Build configuration list for PBXNativeTarget "Measurements" */;
 			buildPhases = (
+				D00B35EA3A6F204A5569D707 /* [CP] Check Pods Manifest.lock */,
 				320E5D651F27988500C42FC0 /* Sources */,
 				320E5D661F27988500C42FC0 /* Frameworks */,
 				320E5D671F27988500C42FC0 /* Headers */,
@@ -837,6 +898,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 320E5D831F27991400C42FC0 /* Build configuration list for PBXNativeTarget "AttributesInspector" */;
 			buildPhases = (
+				EA012CF2A84B6C4959BDEBB7 /* [CP] Check Pods Manifest.lock */,
 				320E5D791F27991400C42FC0 /* Sources */,
 				320E5D7A1F27991400C42FC0 /* Frameworks */,
 				320E5D7B1F27991400C42FC0 /* Headers */,
@@ -855,6 +917,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 494A74DF1F278EB9003F89F7 /* Build configuration list for PBXNativeTarget "SlowAnimations" */;
 			buildPhases = (
+				53E4B132F6980BBAFB88AEFB /* [CP] Check Pods Manifest.lock */,
 				494A74D31F278EB9003F89F7 /* Sources */,
 				494A74D41F278EB9003F89F7 /* Frameworks */,
 				494A74D51F278EB9003F89F7 /* Headers */,
@@ -873,6 +936,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 498E347C1EFA0C8000A0BC4E /* Build configuration list for PBXNativeTarget "HyperionCore" */;
 			buildPhases = (
+				419530D6D33FDC5E829F9ED2 /* [CP] Check Pods Manifest.lock */,
 				498E346F1EFA0C8000A0BC4E /* Sources */,
 				498E34701EFA0C8000A0BC4E /* Frameworks */,
 				498E34711EFA0C8000A0BC4E /* Headers */,
@@ -881,6 +945,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8676CF372E80FC0300ADEA39 /* FlexPlugin */,
 			);
 			name = HyperionCore;
 			productName = HyperionCore;
@@ -915,7 +982,6 @@
 				};
 			};
 			buildConfigurationList = 498E346E1EFA0C8000A0BC4E /* Build configuration list for PBXProject "HyperionCore" */;
-			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -923,6 +989,7 @@
 				Base,
 			);
 			mainGroup = 498E346A1EFA0C8000A0BC4E;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 498E34751EFA0C8000A0BC4E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1000,6 +1067,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8676D4B32E8107D200ADEA39 /* Podfile in Resources */,
 				49C3C21E1FCFC7FE00B170B7 /* x.png in Resources */,
 				49C3C21F1FCFC7FE00B170B7 /* x@2x.png in Resources */,
 				49C3C2201FCFC7FE00B170B7 /* x@3x.png in Resources */,
@@ -1008,6 +1076,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		419530D6D33FDC5E829F9ED2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HyperionCore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53E4B132F6980BBAFB88AEFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SlowAnimations-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D00B35EA3A6F204A5569D707 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Measurements-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA012CF2A84B6C4959BDEBB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AttributesInspector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		320E5D651F27988500C42FC0 /* Sources */ = {
@@ -1087,6 +1246,7 @@
 /* Begin XCBuildConfiguration section */
 		320E5D701F27988500C42FC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A666696C24EE6FB8C3309F4 /* Pods-Measurements.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 0;
@@ -1096,8 +1256,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Measurements/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WillowTree.Measurements;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1107,6 +1271,7 @@
 		};
 		320E5D711F27988500C42FC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC31A49F1A6D17AEAC652F0A /* Pods-Measurements.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 0;
@@ -1116,8 +1281,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Measurements/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WillowTree.Measurements;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1127,6 +1296,7 @@
 		};
 		320E5D841F27991400C42FC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 206F33DD2C4F153549D25041 /* Pods-AttributesInspector.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 0;
@@ -1136,8 +1306,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AttributesInspector/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WillowTree.AttributesInspector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1147,6 +1321,7 @@
 		};
 		320E5D851F27991400C42FC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80A5E13D2B4E66EFB961331D /* Pods-AttributesInspector.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 0;
@@ -1156,8 +1331,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AttributesInspector/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WillowTree.AttributesInspector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1167,6 +1346,7 @@
 		};
 		494A74DD1F278EB9003F89F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77CDFADD8C129F4C0B87922 /* Pods-SlowAnimations.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 0;
@@ -1176,8 +1356,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SlowAnimations/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WillowTree.SlowAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1187,6 +1371,7 @@
 		};
 		494A74DE1F278EB9003F89F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C52BC83A35B3F2954C6981 /* Pods-SlowAnimations.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 0;
@@ -1196,8 +1381,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SlowAnimations/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WillowTree.SlowAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1323,6 +1512,7 @@
 		};
 		498E347D1EFA0C8000A0BC4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9A3FFF5644ACDEFE6DEA82 /* Pods-HyperionCore.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 0;
@@ -1330,10 +1520,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = HyperionCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WillowTree.HyperionCore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1343,6 +1538,7 @@
 		};
 		498E347E1EFA0C8000A0BC4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B9E763B40087316D420D4C /* Pods-HyperionCore.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 0;
@@ -1350,10 +1546,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = HyperionCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WillowTree.HyperionCore;
 				PRODUCT_NAME = "$(TARGET_NAME)";

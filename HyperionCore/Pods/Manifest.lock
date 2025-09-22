@@ -1,0 +1,21 @@
+PODS:
+  - FLEX (5.22.10)
+
+DEPENDENCIES:
+  - FLEX (from `https://github.com/NBminhnv/FLEX-Ange`)
+
+EXTERNAL SOURCES:
+  FLEX:
+    :git: https://github.com/NBminhnv/FLEX-Ange
+
+CHECKOUT OPTIONS:
+  FLEX:
+    :commit: 5784340e188a47da87c3da90a76e1b5d3dbf2255
+    :git: https://github.com/NBminhnv/FLEX-Ange
+
+SPEC CHECKSUMS:
+  FLEX: 6ec7816b9f392fb4c635cf50381e6bd4fb15541d
+
+PODFILE CHECKSUM: 175138cf55de9d332918596de1cef33a1e8b8066
+
+COCOAPODS: 1.16.2
