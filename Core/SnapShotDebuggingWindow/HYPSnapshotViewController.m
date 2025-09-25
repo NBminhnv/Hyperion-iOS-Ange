@@ -31,7 +31,6 @@
 #import "HYPViewSelectionTableViewController.h"
 #import "HYPPluginHelper.h"
 #import "HYPPopoverViewController.h"
-@import FLEX;
 
 @interface HYPSnapshotViewController () <UIGestureRecognizerDelegate, UINavigationControllerDelegate, UIScrollViewDelegate, HYPSnapshotContainerDelegate, HYPPopoverViewControllerDelegate>
 
@@ -227,7 +226,6 @@ const CGFloat PluginListWidth = 280;
 
 -(void)togglePluginDrawer
 {
-    [FLEXManager.sharedManager hideExplorer];
     if (self.drawerActive)
     {
         [self deactivate];

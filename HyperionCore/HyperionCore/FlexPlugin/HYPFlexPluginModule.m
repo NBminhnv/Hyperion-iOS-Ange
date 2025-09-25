@@ -22,7 +22,6 @@
 #import "HYPFlexPluginModule.h"
 #import "HYPPluginMenuItem.h"
 #import "HyperionManager.h"
-@import FLEX;
 
 @interface HYPFlexPluginModule () <HYPPluginMenuItemDelegate>
 
@@ -49,8 +48,6 @@
 -(void)pluginMenuItemSelected:(UIView<HYPPluginMenuItem> *)pluginView
 {
     [[HyperionManager sharedInstance] togglePluginDrawer];
-    [FLEXManager.sharedManager showExplorer];
-    NSLog(@"FLEX plugin selected");
 }
 
 @end
